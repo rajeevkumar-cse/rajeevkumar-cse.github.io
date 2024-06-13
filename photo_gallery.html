@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Photo Gallery</title>
+<style>
+  /* Ensure all images have the same size */
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; /* Add spacing between images */
+    padding: 20px; /* Add padding around the gallery container */
+    background-color: #f7f7f7; /* Set background color */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Add border */
+    transition: transform 0.3s ease; /* Add transition effect */
+  }
+
+  .image-container img:hover {
+    transform: scale(1.05); /* Scale up the image on hover */
+  }
+</style>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Menu</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="visit.html">Biography</a></div>
+<div class="menu-item"><a href="⁠edu_profession.html">Edu & Profession</a></div>
+<div class="menu-item"><a href="public_policies.html">Public Policies</a></div>
+<div class="menu-item"><a href="in_media.html">In Media</a></div>
+<div class="menu-item"><a href="acad_leadership.html">Acad Leadership</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+<div class="menu-item"><a href="research.html">Research</a></div>
+<div class="menu-item"><a href="students.html">Students</a></div>
+<div class="menu-item"><a href="tu_talks.html">Tu & Talks</a></div>
+<div class="menu-item"><a href="pub.html">Publications</a></div>
+<div class="menu-item"><a href="photo_gallery.html" class="current">Photo Gallery</a></div>
+<div class="menu-item"><a href="quotes.html">Quotes</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Photo Gallery</h1>
+</div>
+
+<!-- Photo gallery grid -->
+<div class="image-container">
+  <img src="images/1.jpeg" alt="Image 1">
+  <img src="images/2.jpeg" alt="Image 2">
+  <img src="images/4.jpeg" alt="Image 3">
+  <img src="images/7.jpeg" alt="Image 4">
+  <img src="images/5.jpeg" alt="Image 5">
+  <img src="images/6.jpeg" alt="Image 6">
+  <img src="images/3.jpeg" alt="Image 7">
+  <img src="images/8.jpeg" alt="Image 8">
+  <img src="images/9.jpeg" alt="Image 9">
+</div>
+
+<div id="footer">
+    <div id="footer-text">
+    <b>Rajeev Kumar</b>
+    </div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
